@@ -1,0 +1,3 @@
+nsh - a shell that is similar to a subset of the Bourne Shell. The syntax for everything that is implemented will be identical to the Bourne Shell.
+
+nsh supports shell scripts; the running of arbitrary commands with arguments; the “cd” command; at least one pipe; and I/O redirection (including append). Moreover, it also supports the following functions: ignoring control-c; background execution (adding & in the back); comments (using #); meta-characters without spaces (e.g. ls|wc); single quotes (e.g. echo ‘hello world’); multiple pipes (e.g. ls|wc|wc); exit with an exit-code (e.g. exit or exit number).
